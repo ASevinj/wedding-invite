@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#102823" />
+  <meta name="description" content="Sevgi ilə hazırlanmış toy dəvətnaməsi" />
+  <title>Toy dəvətnaməsi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="locked">
+  <div class="noise" aria-hidden="true"></div>
+  <div id="cover" class="cover" role="dialog" aria-modal="true" aria-labelledby="cover-title">
+    <div class="cover-grain"></div>
+    <div class="corner-art top-left" aria-hidden="true"></div><div class="corner-art bottom-right" aria-hidden="true"></div>
+    <div class="cover-content">
+      <div class="eyebrow gold">SİZİN ÜÇÜN XÜSUSİ DƏVƏT</div>
+      <div class="cover-ornament" aria-hidden="true">✦</div>
+      <div class="envelope-wrap" aria-hidden="true">
+        <div class="envelope"><div class="envelope-letter">♡</div><div class="envelope-flap"></div><div class="envelope-front"></div><div class="seal">✦</div></div>
+      </div>
+      <h1 id="cover-title" class="cover-title"><span data-bride>Aylin</span> <em>&</em> <span data-groom>Murad</span></h1>
+      <p class="cover-caption">Birlikdə yazacağımız hekayənin<br>ən gözəl səhifəsinə dəvətlisiniz</p>
+      <button id="openInvite" class="button button-gold open-btn" type="button">DƏVƏTİ AÇ <span aria-hidden="true">↗</span></button>
+      <div class="swipe-hint">SEVGİ İLƏ HAZIRLANIB</div>
+    </div>
+  </div>
+
+  <main id="main" inert>
+    <section class="hero" id="top">
+      <div class="hero-glow"></div>
+      <div class="topbar"><span>THE WEDDING OF</span><span class="star">✳</span><span id="heroYear">2027</span></div>
+      <div class="hero-center">
+        <div class="fine-line"></div>
+        <div class="hero-kicker">İKİ ÜRƏK, BİR HEKAYƏ</div>
+        <div class="artwork" aria-hidden="true">
+          <svg viewBox="0 0 350 360" role="img"><defs><linearGradient id="archg" x1="0" x2="1"><stop stop-color="#b89a68"/><stop offset=".5" stop-color="#eddbb4"/><stop offset="1" stop-color="#b89a68"/></linearGradient></defs>
+            <path d="M44 335V166C44 93 102 35 175 35s131 58 131 131v169" fill="none" stroke="url(#archg)" stroke-width="1" opacity=".8"/>
+            <path d="M57 335V168C57 103 110 50 175 50s118 53 118 118v167" fill="none" stroke="url(#archg)" stroke-width=".5" opacity=".5"/>
+            <g fill="none" stroke="#b8c5a7" stroke-width="1.5" stroke-linecap="round" opacity=".75">
+              <path d="M53 337C48 279 34 235 22 191M47 286C30 261 24 243 25 230M39 255C49 233 50 212 45 194M33 230C18 220 12 199 10 184M26 206C29 178 23 160 16 146"/>
+              <path d="M296 337c5-58 19-102 31-146m-25 95c17-25 23-43 22-56m-14 25c-10-22-11-43-6-61m12 36c15-10 21-31 23-46m-16 22c-3-28 3-46 10-60"/>
+              <path d="M65 335c-10-21-9-49-4-78m-3 50c-14-8-24-18-31-31m35 4c10-14 13-23 13-38M284 335c10-21 9-49 4-78m3 50c14-8 24-18 31-31m-35 4c-10-14-13-23-13-38"/>
+            </g>
+            <g fill="#c6ba93" opacity=".8"><ellipse cx="25" cy="229" rx="4" ry="12" transform="rotate(-45 25 229)"/><ellipse cx="45" cy="195" rx="4" ry="12" transform="rotate(10 45 195)"/><ellipse cx="15" cy="175" rx="4" ry="12" transform="rotate(-28 15 175)"/><ellipse cx="324" cy="229" rx="4" ry="12" transform="rotate(45 324 229)"/><ellipse cx="304" cy="195" rx="4" ry="12" transform="rotate(-10 304 195)"/><ellipse cx="334" cy="175" rx="4" ry="12" transform="rotate(28 334 175)"/></g>
+          </svg>
+        </div>
+        <h2 class="hero-names"><span data-bride>Aylin</span><span class="amp">&</span><span data-groom>Murad</span></h2>
+        <p class="hero-subtitle">Həyatımızın ən gözəl günündə<br>sevincimizi sizinlə bölüşmək istəyirik.</p>
+        <div class="hero-date"><span id="heroDay">20</span><i></i><span id="heroMonth">İYUN</span><i></i><span id="heroYear2">2027</span></div>
+      </div>
+      <a class="scroll-prompt" href="#intro">AŞAĞI SÜRÜŞDÜRÜN <span>↓</span></a>
+    </section>
+
+    <section class="intro section-light" id="intro">
+      <div class="reveal"><div class="section-flower">❀</div><p class="small-label">ƏZİZ QONAĞIMIZ</p><h2 class="display-title">Sevgimizin<br><i>şahidi olun</i></h2><p class="body-copy">Bir ömür davam edəcək səyahətə birlikdə çıxırıq. Bu özəl gündə yanımızda olmağınız bizim üçün ən dəyərli hədiyyədir.</p></div>
+      <div id="photoBlock" class="photo-frame reveal" hidden><img id="couplePhoto" alt="Bəy və gəlinin fotosu" loading="lazy" /></div>
+      <div class="date-card reveal"><div class="eyebrow">TOY GÜNÜMÜZ</div><div id="bigDate" class="date-big">20.06.2027</div><div id="weekday" class="date-weekday">Bazar günü · 18:00</div><div class="thin-rule"></div><div class="eyebrow timer-heading">GÖRÜŞƏNƏ QƏDƏR</div><div class="countdown" aria-label="Toya qalan vaxt"><div><strong id="days">00</strong><small>GÜN</small></div><div><strong id="hours">00</strong><small>SAAT</small></div><div><strong id="minutes">00</strong><small>DƏQİQƏ</small></div><div><strong id="seconds">00</strong><small>SANİYƏ</small></div></div><p id="eventPassed" class="event-passed" hidden>Bu gözəl gün gəlib çatdı ♡</p></div>
+    </section>
+
+    <section class="venue section-dark" id="venue"><div class="inner reveal"><div class="section-flower">✳</div><div class="small-label gold">SİZİ HARADA GÖZLƏYİRİK</div><h2 class="display-title">Görüş<br><i>məkanımız</i></h2><div class="venue-mark">⌁</div><h3 id="venueName">Şadlıq Sarayı</h3><p id="venueHall" class="hall">Ziyafət zalı</p><p id="venueAddress" class="address">Bakı, Azərbaycan</p><a id="mapLink" class="button button-outline" href="https://www.google.com/maps" target="_blank" rel="noopener">XƏRİTƏDƏ BAX <span>↗</span></a></div></section>
+
+    <section class="program section-light" id="program"><div class="reveal"><div class="section-flower">❀</div><div class="small-label">BİRLİKDƏ KEÇİRƏCƏYİMİZ ANLAR</div><h2 class="display-title">Günün<br><i>proqramı</i></h2></div><div id="timeline" class="timeline reveal"></div></section>
+
+    <section class="dress section-blush"><div class="reveal"><div class="section-flower">✦</div><div class="small-label">DRESS CODE</div><h2 class="display-title">Zərif və<br><i>rahat</i></h2><p class="body-copy">Gözəl anlarımızın bir parçası olun. Zərif, bayram əhval-ruhiyyəli geyimlər seçməyiniz bizi sevindirər.</p><div class="palette" aria-label="Rəng palitrası"><span style="--swatch:#c9b5a0"></span><span style="--swatch:#ded4c3"></span><span style="--swatch:#b9ab9b"></span><span style="--swatch:#8e9e8c"></span><span style="--swatch:#5d7063"></span></div></div></section>
+
+    <section class="rsvp section-dark" id="rsvp"><div class="inner reveal"><div class="section-flower">✳</div><div class="small-label gold">RSVP</div><h2 class="display-title">Sizi<br><i>gözləyirik</i></h2><p class="body-copy">Gəlişinizi əvvəlcədən bilməyimiz hazırlıqlarımız üçün çox dəyərlidir.</p><form id="rsvpForm" class="rsvp-form"><label for="guestName">AD VƏ SOYAD</label><input id="guestName" name="name" placeholder="Adınızı daxil edin" required maxlength="100" autocomplete="name" /><label for="guestCount">QONAQ SAYI</label><select id="guestCount" name="count"><option value="1">1 nəfər</option><option value="2">2 nəfər</option><option value="3">3 nəfər</option><option value="4">4 nəfər</option><option value="5">5 nəfər</option><option value="6">6 nəfər</option></select><fieldset><legend>İŞTİRAKINIZ</legend><label class="choice"><input type="radio" name="attendance" value="Bəli, gələcəyəm" checked /><span>Sevinclə gələcəyəm ♡</span></label><label class="choice"><input type="radio" name="attendance" value="Təəssüf ki, gələ bilməyəcəyəm" /><span>Təəssüf ki, gələ bilməyəcəyəm</span></label></fieldset><button class="button button-gold submit-btn" type="submit">CAVABI WHATSAPP İLƏ GÖNDƏR <span>↗</span></button></form><p class="form-note">Cavab WhatsApp-da hazır mesaj kimi açılır. Göndərmək üçün təsdiqləyin.</p></div></section>
+
+    <section class="finale section-light"><div class="reveal"><div class="section-flower">❀</div><p class="small-label">Ü R Ə K D Ə N</p><h2 class="display-title">Sevgiylə<br><i>gözləyirik!</i></h2><p class="body-copy">Bu günü bizimlə paylaşdığınız üçün təşəkkür edirik. Birlikdə unudulmaz xatirələr yaradaq.</p><div class="signature"><span data-bride>Aylin</span> <i>&</i> <span data-groom>Murad</span></div><button id="calendarBtn" class="calendar-button" type="button">✧ TƏQVİMƏ ƏLAVƏ ET</button></div></section>
+    <footer><span>MADE WITH LOVE ♡</span><a href="#top">YUXARI ↑</a></footer>
+  </main>
+  <button id="musicBtn" class="music-btn" type="button" aria-label="Musiqini aç" hidden>♫</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
